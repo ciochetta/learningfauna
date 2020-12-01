@@ -1,0 +1,25 @@
+{
+  "name": "learningfauna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciochetta/learningfauna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciochetta/learningfauna/issues"
+  },
+  "homepage": "https://github.com/ciochetta/learningfauna#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "faunadb": "^4.0.0"
+  }
+}
