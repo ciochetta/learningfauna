@@ -1,12 +1,4 @@
-const dotenv = require("dotenv");
-dotenv.config();
-
-const faunadb = require("faunadb"),
-	q = faunadb.query;
-
-const client = new faunadb.Client({
-	secret: process.env.FAUNA_KEY,
-});
+const { client, q } = require("./db");
 
 const getTask = async function (request, response) {
 	let result = await client.query(
